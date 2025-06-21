@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 
 # Step 1: Load the dataset (make sure diabetes.csv is in your folder)
-df = pd.read_csv("diabetes.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/npradaschnor/Pima-Indians-Diabetes-Dataset/refs/heads/master/diabetes.csv")
 
 # Step 2: Define features and target
 X = df.drop("Outcome", axis=1)
